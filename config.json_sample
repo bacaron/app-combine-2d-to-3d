@@ -1,0 +1,6 @@
+{
+	"axial":	"/input/axial.nii.gz",
+	"sagittal":	"/input/sagittal.nii.gz",
+	"coronal":	"/input/coronal.nii.gz",
+	"type":	"t1"
+}
