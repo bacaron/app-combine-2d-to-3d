@@ -1,9 +1,9 @@
 #!/bin/bash
-#PBS -l nodes=1:ppn=4,walltime=01:00:00
+#PBS -l nodes=1:ppn=4,walltime=02:00:00
 #PBS -N app-combine-2d-to-3d
 
-#set -e
-#set -x
+set -e
+set -x
 
 axial=`jq -r '.axial' config.json`
 coronal=`jq -r '.coronal' config.json`
