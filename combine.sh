@@ -2,7 +2,6 @@
 
 axial=$1
 coronal=$2
-sagittal=$3
 TYPE=$4
 
 [ ! -d ./output ] && mkdir -p ./output && outdir='./output'
